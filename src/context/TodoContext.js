@@ -3,7 +3,7 @@ import {createContext, useContext} from "react"
 export const TodoContext = createContext({
     todos:[
         {
-            id,
+            id: 1,
             todo:"This is a Todo",
             completed: false
         }
